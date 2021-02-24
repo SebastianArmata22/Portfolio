@@ -45,6 +45,7 @@
         width: 1rem;
         height: 1rem;
         border-radius: 1rem;
+        background-color: $first-main-color;
         margin: 0 0.2rem;
 
     }
@@ -52,12 +53,11 @@
 .console_container{
     flex-direction: column;
 }
-._red{
+.red{
     background-color: #d22e2e;
 }
-._yellow{
+.yellow{
     background-color: #ffb64c;
 }
-._green{
+.green{
     background-color: #8ac249;
-}

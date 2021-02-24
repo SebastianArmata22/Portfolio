@@ -1,8 +1,7 @@
 @import '../../variables.scss';
-
-.aboutMe{
+.skills{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     padding: 2rem;
     header{
         @include flex-container;
@@ -13,7 +12,6 @@
             width: 90%;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
             &::after{
                 display: block;
                 content: "";
@@ -22,9 +20,40 @@
                     z-index: -1;
                     position: absolute;
                     top:0;
-                    right: -2rem;
+                    left: -3rem;
                     background-color: $first-main-color;
             }
         }
     }
+    main{
+        display: flex;
+        >div{
+            width: 50%;
+            height: calc(100vh - 5rem);
+            border: 1px solid $first-main-color;
+        }
+    }
 }
+.console_content{
+    background-color: #263238;
+}
+  ul {
+    list-style: none;
+    color: #EFEBE9;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .no-top-padding {
+
+  }
+  
+  .html_text {
+    color: #EF5350;
+  }
+  
+  .html_text_2 {
+    color: #FFCC80;
+  }

@@ -1,8 +1,7 @@
 @import '../../variables.scss';
-
-.aboutMe{
+.skills{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     padding: 2rem;
     header{
         @include flex-container;
@@ -13,7 +12,6 @@
             width: 90%;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
             &::after{
                 display: block;
                 content: "";
@@ -22,9 +20,30 @@
                     z-index: -1;
                     position: absolute;
                     top:0;
-                    right: -2rem;
+                    left: -3rem;
                     background-color: $first-main-color;
             }
         }
     }
+    main{
+        display: flex;
+        >div{
+            width: 50%;
+            height: calc(100vh - 5rem);
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+.bar{
+    div{
+        width: 1rem;
+        height: 1rem;
+        border-radius: 1rem;
+        background-color: $first-main-color;
+        display: flex;
+    }
+}
+.console_container{
+    flex-direction: column;
 }

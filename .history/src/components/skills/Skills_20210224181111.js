@@ -10,14 +10,8 @@ const Skills = ()=>{
                 <p>Skills</p>
             </header>
             <main>
+                <div></div>
                 <div>
-                </div>
-                <div className={classes.console_container}>
-                    <div className={classes.bar}>
-                        <div className={classes._red}></div>
-                        <div className={classes._yellow}></div>
-                        <div className={classes._green}></div>
-                    </div>
                     <ConsoleSkills />
                 </div>
             </main>

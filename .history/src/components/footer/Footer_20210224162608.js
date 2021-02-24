@@ -1,11 +1,11 @@
-import classes from './foother.module.scss'
+import classes from './footer.module.scss'
 import React from 'react'
 
 const Foother = ()=>{
     return(
-        <footer className={classes.footer}>
+        <div className={classes.footer}>
             <p>Sebastian Armata </p>
-        </footer>
+        </div>
         )
 }
 export default Foother

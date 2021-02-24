@@ -14,9 +14,9 @@ const Skills = ()=>{
                 </div>
                 <div className={classes.console_container}>
                     <div className={classes.bar}>
-                        <div className={classes._red}></div>
-                        <div className={classes._yellow}></div>
-                        <div className={classes._green}></div>
+                        <div className={classes.red}></div>
+                        <div></div>
+                        <div></div>
                     </div>
                     <ConsoleSkills />
                 </div>
