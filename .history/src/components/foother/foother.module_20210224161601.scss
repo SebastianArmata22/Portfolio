@@ -1,0 +1,6 @@
+@import '../../variables.scss';
+.foother{
+    height: 5rem;
+    background-color: $first-main-color;
+    @include flex-container;
+}

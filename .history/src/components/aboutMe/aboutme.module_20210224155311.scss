@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+
+.aboutMe{
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    header p{
+        position: relative;
+        &::after{
+            display: block;
+            content: "";
+                width: 10rem;
+                height: 4rem;
+                z-index: -1;
+                position: absolute;
+                top:0;
+                left: 0;
+                background-color: $first-main-color;
+        }
+        p{
+        }
+    }
+}

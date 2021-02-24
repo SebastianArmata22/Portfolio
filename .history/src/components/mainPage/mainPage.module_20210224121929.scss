@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.main_page_container{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-color: $third-main-color;
+    p{
+        color: $second-main-color;
+        font-size: 2rem;
+        span{
+            color: $first-main-color;
+            font-size: 3rem;
+        }
+    }
+}

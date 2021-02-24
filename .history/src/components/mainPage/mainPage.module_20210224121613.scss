@@ -1,0 +1,7 @@
+@import '../../variables.scss';
+
+.main-page-container{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-color: $third-main-color;
+}

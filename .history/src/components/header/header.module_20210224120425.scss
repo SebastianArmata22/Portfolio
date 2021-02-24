@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.header{
+    height: 5rem;
+    width: 100%;
+    background-color: $third-main-color;
+    img{
+        height: 50px;
+    }
+    ul{
+        display: inline;
+        li{
+            list-style: none;
+            color: $second-main-color;
+        }
+    }
+}

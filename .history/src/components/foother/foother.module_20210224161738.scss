@@ -1,0 +1,7 @@
+@import '../../variables.scss';
+.footer{
+    height: 5rem;
+    background-color: $first-main-color;
+    @include flex-container;
+    color: $second-main-color;
+}

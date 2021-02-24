@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+.main_page_container{
+    height: calc(100vh - 5rem);
+    width: 100%;
+    background-color: $third-main-color;
+    @include flex-container;
+    div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    p{
+        color: $second-main-color;
+        font-size: 2rem;
+        span{
+            color: $first-main-color;
+            font-size: 3rem;
+        }
+    }
+}

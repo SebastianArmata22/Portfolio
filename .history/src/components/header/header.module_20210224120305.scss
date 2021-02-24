@@ -1,0 +1,10 @@
+@import '../../variables.scss';
+
+.header{
+    height: 5rem;
+    width: 100%;
+    background-color: $third-main-color;
+    img{
+        height: 50px;
+    }
+}
