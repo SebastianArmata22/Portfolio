@@ -1,0 +1,10 @@
+@import '../../variables.scss';
+.email_form{
+    display: flex;
+    flex-direction: column;
+
+    input[type="submit"]{
+        width: 7rem;
+        height: 3rem;
+    }
+}

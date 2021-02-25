@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+.email_form{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    position: relative;
+    input[type="text"],input[type="email"]{
+        border: none;
+        border-bottom: 1px solid $first-main-color;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        outline: none;
+    }
+    textarea{
+        border: 1px solid $first-main-color;
+        resize: none;
+        height: 10rem;
+        margin: 0.5rem 0;
+        padding: 1rem;
+        outline: none;
+
+    }
+}
+.send_btn{
+    position: relative;
+    align-self: center;
+    margin: 1rem;
+    background-color: transparent;
+    width: 7rem;
+    height: 3rem;
+    border: 1px solid $third-main-color;
+    cursor: pointer;
+    &::before{
+        display: inline-block;
+        content: "";
+        width: 7rem;
+        height: 3rem;
+        background-color: $first-main-color;
+        position: absolute;
+        bottom: -0.5rem;
+        right: -0.5rem;
+        z-index: -1;
+
+    }
+}

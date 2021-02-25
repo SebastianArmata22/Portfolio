@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+.email_form{
+    display: flex;
+    flex-direction: column;
+
+    input[type="submit"]{
+        position: relative;
+        width: 7rem;
+        height: 3rem;
+        align-self: center;
+        border: 1px solid $third-main-color;
+        background-color: $second-main-color;
+        margin: 1rem;
+        &::before{
+            content: "";
+            width: 7rem;
+            height: 3rem;
+            background-color: $first-main-color;
+            position: absolute;
+            bottom: -5px;
+            left: -5px;
+            z-index: -1;
+
+        }
+    }
+}

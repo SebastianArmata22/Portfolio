@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+.email_form{
+    display: flex;
+    flex-direction: column;
+
+    input[type="submit"]{
+        width: 5rem;
+    }
+}
