@@ -1,0 +1,57 @@
+@import '../../variables.scss';
+
+.slider{
+    position: relative;
+    height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.project{
+    height: calc(100vh - 4rem);
+    @include flex-container;
+    position: relative;
+    img{
+        width: 90%;
+    }
+    &::after{
+        display: block;
+        content: "";
+        width: 90%;
+        height: 90%;
+        z-index: -1;
+        position: absolute;
+        top:0.3rem;
+        right: 0.3rem;
+        background-color: $first-main-color;
+}
+}
+.btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    div{
+        position: relative;
+        height: 4rem;
+        width: 4rem;
+        @include flex-container;
+        border: 1px solid #000;
+        &::after{
+            display: block;
+            content: "";
+            width: 4rem;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+            top:0.3rem;
+            right: 0.3rem;
+            background-color: $first-main-color;
+    }
+    }
+}
+.arrow{
+    font-size: 2rem;
+    color: $third-main-color;
+}

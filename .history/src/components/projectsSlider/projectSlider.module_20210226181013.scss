@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+.slider{
+    position: relative;
+    height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_btn{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.right_btn{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    z-index: 10;
+    cursor: pointer;
+}
+.project{
+    height: calc(100vh - 4rem);
+    padding: 2rem;
+    @include flex-container;
+    img{
+        width: 80%;
+    }
+}
+.btn{
+    background-color: transparent;
+    border: none;
+}
+.arrow{
+    font-size: 3rem;
+    color: $first-main-color;
+    outline: none;
+}

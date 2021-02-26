@@ -1,0 +1,59 @@
+@import '../../variables.scss';
+
+.slider{
+    position: relative;
+    height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left_btn{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    cursor: pointer;
+
+}
+.right_btn{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    cursor: pointer;
+}
+.project{
+    height: calc(100vh - 4rem);
+    padding: 2rem;
+    @include flex-container;
+    img{
+        width: 80%;
+    }
+}
+.btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    div{
+        position: relative;
+        height: 4rem;
+        width: 4rem;
+        @include flex-container;
+        border: 1px solid #000;
+        &::after{
+            display: block;
+            content: "";
+            width: 4rem;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+            top:0.3rem;
+            right: 0.3rem;
+            background-color: $first-main-color;
+    }
+    }
+}
+.arrow{
+    font-size: 2rem;
+    color: $third-main-color;
+}
