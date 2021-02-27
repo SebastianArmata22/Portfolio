@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const ProjectItem = ({project}) =>{
     const [isChecked, setIsChecked]=useState(false)
-    const changeIsChecked=(e)=>{
+    const changeIsChecked=()=>{
         setIsChecked(prev=>!prev)
         e.stopPropagation()
     }

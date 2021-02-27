@@ -3,9 +3,8 @@ import React, { useState } from 'react'
 
 const ProjectItem = ({project}) =>{
     const [isChecked, setIsChecked]=useState(false)
-    const changeIsChecked=(e)=>{
+    const changeIsChecked=()=>{
         setIsChecked(prev=>!prev)
-        e.stopPropagation()
     }
     return(
         <div className={isChecked ? [classes.project_item, classes.active].join(' ') : classes.project_item} onClick={changeIsChecked}>

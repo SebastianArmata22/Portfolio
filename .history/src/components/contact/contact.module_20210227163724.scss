@@ -28,7 +28,6 @@
         flex-wrap: wrap;
         padding: 2rem;
         > div{
-            min-width: 20rem;
             width: 50%;
             height: 100%;
             @include flex-container;
