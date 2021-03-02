@@ -1,0 +1,8 @@
+$first-main-color: #1abc9c;
+$second-main-color: #fff;
+$third-main-color:#000;
+@mixin flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

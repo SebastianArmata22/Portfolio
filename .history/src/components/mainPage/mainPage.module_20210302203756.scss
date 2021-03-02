@@ -1,0 +1,27 @@
+@import '../../variables.scss';
+
+.main_page_container{
+    min-height: calc(100vh - 7rem);
+    width: 100%;
+    background-color: $third-main-color;
+    @include flex-container;
+    padding: 3rem;
+    div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    p{
+        color: $second-main-color;
+        font-size: 2rem;
+        span{
+            color: $first-main-color;
+            font-size: 3rem;
+        }
+    }
+}
+.programmer{
+    height: 20rem;
+}

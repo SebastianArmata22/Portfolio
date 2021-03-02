@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="256" viewBox="0 0 63 256">
+  <g id="Ellipse_4" data-name="Ellipse 4" fill="#fff" stroke="#707070" stroke-width="1">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="31" fill="none"/>
+  </g>
+  <g id="Ellipse_5" data-name="Ellipse 5" fill="#fff" stroke="#ffb300" stroke-width="2">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="30.5" fill="none"/>
+  </g>
+  <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0 193)" fill="#fff" stroke="#ffb300" stroke-width="2">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="30.5" fill="none"/>
+  </g>
+  <line id="Line_2" data-name="Line 2" y2="130" transform="translate(31.5 63.5)" fill="none" stroke="#ffb300" stroke-width="2"/>
+</svg>
