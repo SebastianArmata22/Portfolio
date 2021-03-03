@@ -4,13 +4,13 @@ const AboutMe = ()=>{
     return(
         <div className={classes.aboutMe}>
             <header>
-                <p>&lt;About me/&gt;</p>
+                <p>About me</p>
             </header>
             <main>
                 <div></div>
                 <div >
                     <div className={classes.textAbouMe}>
-                        <p>Hi,</p>
+                        <p>&lt; Hi,</p>
                         <p>
                             My name is Sebastian Armata and I am a third-year student of Applied Computer Science at the Cracow University of Technology.
                             I've been interested in frontend for four years.

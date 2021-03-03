@@ -4,7 +4,7 @@ const AboutMe = ()=>{
     return(
         <div className={classes.aboutMe}>
             <header>
-                <p>&lt;About me/&gt;</p>
+                <p>&lt;About me</p>
             </header>
             <main>
                 <div></div>

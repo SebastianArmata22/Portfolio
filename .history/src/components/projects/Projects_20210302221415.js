@@ -7,7 +7,7 @@ const Projects = ()=>{
     return(
         <div className={classes.projects}>
             <header>
-                <p>&lt;Projects/&gt;</p>
+                <p>&lt;Projects</p>
             </header>
             <main>
                 {projectsData.map((project)=>< ProjectItem project={project}/>)}

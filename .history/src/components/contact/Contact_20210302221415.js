@@ -6,7 +6,7 @@ const Contact = ()=>{
     return(
         <div className={classes.contact}>
         <header>
-            <p>&lt;Contact/&gt;</p>
+            <p>&lt;Contact</p>
         </header>
         <main>
             <div>

@@ -68,7 +68,7 @@
     height: 50%;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem 0;
+    padding: 2rem;
     > div{
         min-height: 100%;
         @include flex-container;
@@ -156,8 +156,5 @@
                 width: 50%;
             }
         }
-    }
-    .logo_container{
-        padding: 2rem;
     }
 }
