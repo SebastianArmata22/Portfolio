@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+.main_page_container{
+    width: 100%;
+    background-color: $third-main-color;
+    padding: 3rem;
+    div{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    p{
+        color: $second-main-color;
+        font-size: 2rem;
+        span{
+            color: $first-main-color;
+            font-size: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main_page_container{
+        min-height: calc(100vh - 5rem);
+        display: block;
+        >div{
+            width: 100%;
+        }
+        .programmer{
+            img{
+                height: 20rem;
+            }
+        }
+}
+}
+@media only screen and (min-width: 768px) {
+    .main_page_container{
+        min-height: calc(100vh - 7rem);
+        @include flex-container;
+        >div{
+            width: 50%;
+        }
+}
+.programmer{
+    img{
+        height: 30rem;
+    }
+
+}
+}
