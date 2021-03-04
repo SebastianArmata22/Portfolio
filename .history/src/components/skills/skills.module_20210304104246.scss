@@ -73,7 +73,7 @@
         min-height: 100%;
         @include flex-container;
         flex-wrap: wrap;
-        border: 1px dashed $third-main-color;
+        border: 1px double $third-main-color;
         position: relative;
         padding: 2rem;
         &::before{

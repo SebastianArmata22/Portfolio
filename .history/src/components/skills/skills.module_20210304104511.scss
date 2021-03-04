@@ -83,7 +83,7 @@
             height: 100%;
             z-index: -1;
             position: absolute;
-            background-color: $first-main-color;
+            border:5px solid $first-main-color;
         }
   }
 }

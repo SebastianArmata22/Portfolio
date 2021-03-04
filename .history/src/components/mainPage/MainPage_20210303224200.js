@@ -11,13 +11,13 @@ const MainPage = ()=>{
                 <TypeWriterEffect
                         textStyle={{color: '#FFB300' }}
                         startDelay={1000}
-                        cursorColor="#FFB300"
+                        cursorClassName={classes.cursor}
                         text="<Hello,"
                         typeSpeed={100}/>
                 <TypeWriterEffect
                         textStyle={{color: '#ffffff' }}
                         startDelay={2000}
-                        cursorColor="#FFB300"
+                        cursorClassName={classes.cursor}
                         text="I'm Sebastian Armata"
                         typeSpeed={100}/>
                 <TypeWriterEffect
