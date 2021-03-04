@@ -2,7 +2,6 @@
 .contact{
     padding: 2rem;
     header{
-        @include flex-container;
         p{
             position: relative;
             font-size: 2rem;

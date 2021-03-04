@@ -1,21 +1,10 @@
 import classes from './aboutme.module.scss'
-import React, {useState} from 'react'
-import { RoughNotation } from 'react-rough-notation'
-import VisibilitySensor  from 'react-visibility-sensor'
-
+import React from 'react'
 const AboutMe = ()=>{
-    const [visible,setVisible]=useState(false)
-    const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
-    }
     return(
         <div className={classes.aboutMe}>
             <header>
-            <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
                 <p>About me</p>
-            </RoughNotation>
-            </VisibilitySensor>
             </header>
             <main>
                 <div></div>
@@ -23,7 +12,7 @@ const AboutMe = ()=>{
                     <div className={classes.textAbouMe}>
                         <p>Hi,</p>
                         <p>
-                            My name is Sebastian Armata and I am a third-year student of Applied Computer Science at the Cracow University of Technology. I'm 21.
+                            My name is Sebastian Armata and I am a third-year student of Applied Computer Science at the Cracow University of Technology.
                             I've been interested in frontend for four years.
                             I create websites based on HTML, CSS, JavaScript and React technologies.
                             Nowadays I spend most of my time developing my skills.

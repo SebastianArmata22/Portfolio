@@ -2,21 +2,21 @@ import classes from './contact.module.scss'
 import React, { useState } from 'react'
 import EmailForm from '../emailForm/EmailForm'
 import { RoughNotation } from 'react-rough-notation'
-import VisibilitySensor  from 'react-visibility-sensor'
+import VizSensor from 'react-visibility-sensor'
 
 const Contact = ()=>{
-    const [Visible,setVisible]=useState(false)
-    const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
+    const [isVisible,setIsVisible]=useState(false)
+    const onChange=()=>{
+        setIsVisible(true)
     }
     return(
         <div className={classes.contact}>
         <header>
-        <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={Visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
+        <VizSensor  onChange={onChange}>
+            <RoughNotation type="box" show={isVisible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
                 <p>Contact</p>
             </RoughNotation>
-        </VisibilitySensor>
+        </VizSensor>
         </header>
         <main>
             <div>

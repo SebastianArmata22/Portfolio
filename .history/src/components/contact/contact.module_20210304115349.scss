@@ -2,19 +2,33 @@
 .contact{
     padding: 2rem;
     header{
-        @include flex-container;
         p{
             position: relative;
             font-size: 2rem;
             height: 4rem;
+            width: 90%;
             display: flex;
             align-items: center;
+            &::after{
+                display: block;
+                content: "";
+                width: 5rem;
+                height: 100%;
+                z-index: -1;
+                position: absolute;
+                top:0;
+                left: 4rem;
+                background-color: $first-main-color;
+            }
         }
     }
     main{
         width: 100%;
+        @include flex-container;
+        flex-wrap: wrap;
         padding: 2rem;
         > div{
+            width: 50%;
             height: 100%;
             @include flex-container;
         }
@@ -42,25 +56,5 @@
     }
     span{
         font-weight: 700;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .contact{
-        main{
-            display: block;
-            > div{
-                width: 100%;
-            }
-        }
-    }
-}
-@media only screen and (min-width: 768px) {
-    .contact{
-        main{
-            @include flex-container;
-            > div{
-                width: 50%;
-            }
-        }
     }
 }

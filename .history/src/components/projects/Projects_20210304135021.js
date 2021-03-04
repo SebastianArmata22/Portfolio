@@ -3,8 +3,6 @@ import projectsData from '../../data/projectsData'
 import React, { useState } from 'react'
 import ProjectItem from '../projectItem/ProjectItem'
 import { RoughNotation } from 'react-rough-notation'
-import VisibilitySensor  from 'react-visibility-sensor'
-
 const Projects = ()=>{
     const [visible,setVisible]=useState(false)
     const onChange=(isVisible)=>{

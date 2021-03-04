@@ -13,7 +13,7 @@ const Contact = ()=>{
         <div className={classes.contact}>
         <header>
         <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={Visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
+            <RoughNotation type="box" show={Visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
                 <p>Contact</p>
             </RoughNotation>
         </VisibilitySensor>

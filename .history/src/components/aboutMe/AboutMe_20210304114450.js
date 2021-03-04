@@ -1,21 +1,10 @@
 import classes from './aboutme.module.scss'
-import React, {useState} from 'react'
-import { RoughNotation } from 'react-rough-notation'
-import VisibilitySensor  from 'react-visibility-sensor'
-
+import React from 'react'
 const AboutMe = ()=>{
-    const [visible,setVisible]=useState(false)
-    const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
-    }
     return(
         <div className={classes.aboutMe}>
             <header>
-            <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
                 <p>About me</p>
-            </RoughNotation>
-            </VisibilitySensor>
             </header>
             <main>
                 <div></div>

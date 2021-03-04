@@ -13,15 +13,12 @@ import { RoughNotation } from 'react-rough-notation'
 import VisibilitySensor  from 'react-visibility-sensor'
 
 const Skills = ()=>{
-    const [visible,setVisible]=useState(false)
-    const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
-    }
+
     return(
         <div className={classes.skills}>
             <header>
             <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
+            <RoughNotation type="box" show={Visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
                 <p>Skills</p>
             </RoughNotation>
             </VisibilitySensor>

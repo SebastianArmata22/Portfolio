@@ -7,13 +7,13 @@ import VisibilitySensor  from 'react-visibility-sensor'
 const Contact = ()=>{
     const [Visible,setVisible]=useState(false)
     const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
+        isVisible && setIsVisible(true)
     }
     return(
         <div className={classes.contact}>
         <header>
         <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={Visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
+            <RoughNotation type="box" show={isVisible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
                 <p>Contact</p>
             </RoughNotation>
         </VisibilitySensor>

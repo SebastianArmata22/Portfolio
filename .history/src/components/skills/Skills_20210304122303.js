@@ -1,5 +1,5 @@
 import classes from './skills.module.scss'
-import React, { useState } from 'react'
+import React from 'react'
 import ConsoleSkills from '../consoleSkills/ConsoleSkills'
 import htmlImg from '../../icons/html5-with-wordmark-color.svg'
 import cssImg from '../../icons/css3(1).svg'
@@ -10,21 +10,16 @@ import mysqlImg from '../../icons/mysql-ar21.svg'
 import es6Img from '../../icons/es6.svg'
 import reduxImg from '../../icons/redux.svg'
 import { RoughNotation } from 'react-rough-notation'
-import VisibilitySensor  from 'react-visibility-sensor'
+
 
 const Skills = ()=>{
-    const [visible,setVisible]=useState(false)
-    const onChange=(isVisible)=>{
-        isVisible && setVisible(true)
-    }
+
     return(
         <div className={classes.skills}>
             <header>
-            <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
+            <RoughNotation type="box" show={true} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
                 <p>Skills</p>
             </RoughNotation>
-            </VisibilitySensor>
             </header>
             <main>
                 <div className={classes.logo_container}>
