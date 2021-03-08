@@ -24,6 +24,7 @@
     flex-direction: column;
     border: 1px dashed $third-main-color;
     position: relative;
+    padding: 3rem;
     color: $third-main-color;
     align-self: flex-start;
     margin: 2rem;
@@ -42,20 +43,15 @@
     span{
         font-weight: 700;
     }
-
 }
 @media only screen and (max-width: 768px) {
     .contact{
         main{
             display: block;
-            margin: auto;
             > div{
-                width: 100%;
+                width: 90%;
             }
         }
-    }
-    .contact_info{
-        padding: 1rem;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -66,8 +62,5 @@
                 width: 50%;
             }
         }
-    }
-    .contact_info{
-        padding: 3rem;
     }
 }

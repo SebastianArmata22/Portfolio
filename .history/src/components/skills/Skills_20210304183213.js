@@ -21,7 +21,7 @@ const Skills = ()=>{
         <div className={classes.skills}>
             <header>
             <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
+            <RoughNotation type="highlight" show={visible} color="#FFB300" padding={20} iterations="2" animationDelay="200" animationDuration="2000">
                 <p>Skills</p>
             </RoughNotation>
             </VisibilitySensor>

@@ -12,7 +12,7 @@ const AboutMe = ()=>{
         <div className={classes.aboutMe}>
             <header>
             <VisibilitySensor  onChange={onChange}>
-            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="1500">
+            <RoughNotation type="box" show={visible} color="#FFB300" padding={5} iterations="3" animationDelay="500" animationDuration="3000">
                 <p>About me</p>
             </RoughNotation>
             </VisibilitySensor>
