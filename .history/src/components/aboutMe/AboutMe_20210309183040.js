@@ -18,10 +18,10 @@ const AboutMe = ()=>{
             </VisibilitySensor>
             </header>
             <main>
-                <div className={classes.MyImage}>
-                    <img src="/images/DSC_0186.jpg" alt="Me"></img>
+                <div>
+                    <img src="/images/DSC_0186.JPG"></img>
                 </div>
-                <div className={classes.text}>
+                <div >
                     <div className={classes.textAbouMe}>
                         <p>Hi,</p>
                         <p>

@@ -19,7 +19,7 @@ const AboutMe = ()=>{
             </header>
             <main>
                 <div className={classes.MyImage}>
-                    <img src="/images/DSC_0186.jpg" alt="Me"></img>
+                    <img src="/images/DSC_0186.jpg"></img>
                 </div>
                 <div className={classes.text}>
                     <div className={classes.textAbouMe}>

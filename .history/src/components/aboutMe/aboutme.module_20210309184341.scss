@@ -2,7 +2,7 @@
 
 .aboutMe{
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem;
     header{
         @include flex-container;
         p{
@@ -19,18 +19,16 @@
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding: 2rem;
+        padding: 2rem 0;
         .text{
             width: 50%;
-            padding: 2rem;
+            margin: 2rem;
         }
     }
     .MyImage{
         @include flex-container;
         img{
-            -webkit-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.75);
-            box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.75);
+            max-height: 25rem;
         }
 
     }
@@ -92,29 +90,11 @@
 }
 @media only screen and (max-width: 768px) {
     .aboutMe{
-        width: 100%;
         main{
             display: block;
             >div{
                 width: 100%;
             }
         }
-    }
-    .text{
-        width: 100% !important;
-    }
-    .MyImage{
-        img{
-            max-height: 13rem;
-        }
-
-    }
-}
-@media only screen and (min-width: 768px) {
-    .MyImage{
-        img{
-            max-height: 25rem;
-        }
-
     }
 }

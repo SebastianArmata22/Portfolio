@@ -1,6 +1,6 @@
 @import '../../variables.scss';
 .contact{
-    padding: 2rem 0;
+    padding: 2rem;
     header{
         @include flex-container;
         p{
@@ -13,7 +13,7 @@
     }
     main{
         width: 100%;
-        padding:2rem;
+        padding: 2rem;
         > div{
             height: 100%;
             @include flex-container;
