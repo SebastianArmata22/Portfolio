@@ -17,14 +17,14 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header refAbouMe={refAbouMe} refSkills={refSkills} refProjects={refProjects} refContact={refContact} />
+        <Header ref={refAbouMe,refSkills,refProjects,refContact}/>
       </header>
       <main>
         <MainPage />
         <AboutMe refAbouMe={refAbouMe}/>
-        <Skills refSkills={refSkills}/>
-        <Projects refProjects={refProjects}/>
-        <Contact refContact={refContact}/>
+        <Skills ref={refSkills}/>
+        <Projects ref={refProjects}/>
+        <Contact ref={refContact}/>
       </main>
       <footer>
         <Footer />

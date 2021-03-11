@@ -8,9 +8,7 @@ const Header = ({refAbouMe,refSkills,refProjects, refContact})=>{
     }
     const displaySection = (reference) =>{
         console.log(reference)
-        reference.current.scrollIntoView(
-            {behavior: "smooth"}
-        )
+        reference.current.scrollIntoView()
     }
 
     return(

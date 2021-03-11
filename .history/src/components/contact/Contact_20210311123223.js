@@ -21,7 +21,7 @@ const Contact = ({refContact})=>{
         <main>
             <div>
                 <div className={classes.contact_info}>
-                    <p><span>email: </span><a href="mailto:sebastian.armata22@gmail.com">sebastian.armata22@gmail.com</a></p>
+                    <span>email: </span><a href="mailto:sebastian.armata22@gmail.com">sebastian.armata22@gmail.com</a>
                     <p><span>phone: </span><a>+48  726 873 385</a></p>
                     <p><span>LinkedIn: </span><a href=" https://linkedin.com/in/sebastian-armata" target="_blank">linkedin.com/in/sebastian-armata</a></p>
                     <p><span>GitHub: </span><a href="https://github.com/SebastianArmata22" target="_blank">https://github.com/SebastianArmata22</a></p>

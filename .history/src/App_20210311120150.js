@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header refAbouMe={refAbouMe} refSkills={refSkills} refProjects={refProjects} refContact={refContact} />
+        <Header reference={refAbouMe,refSkills,refProjects,refContact}/>
       </header>
       <main>
         <MainPage />

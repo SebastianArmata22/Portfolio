@@ -1,26 +1,24 @@
 import classes from './header.module.scss'
 import React, {useState } from 'react'
 import logo from '../../icons/logo_armata.svg'
-const Header = ({refAbouMe,refSkills,refProjects, refContact})=>{
+const Header = ({reference})=>{
     const [isHamburgerMenu, setIsHamburgerMenu]=useState(false)
     const displayMenu=()=>{
         setIsHamburgerMenu(prev=>!prev)
     }
-    const displaySection = (reference) =>{
+    const showAboutMe = () =>{
         console.log(reference)
-        reference.current.scrollIntoView(
-            {behavior: "smooth"}
-        )
+        reference.current.scrollIntoView()
     }
 
     return(
         <div className={classes.header}>
             <img src={logo} alt="logo"></img>
             <ul className={isHamburgerMenu && classes.responsiveMenu}>
-                <li onClick={()=>displaySection(refAbouMe)}>About me</li>
-                <li onClick={()=>displaySection(refSkills)}>Skills</li>
-                <li onClick={()=>displaySection(refProjects)}>Projects</li>
-                <li onClick={()=>displaySection(refContact)}>Contact</li>
+                <li onClick={showAboutMe}>About me</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li>
             </ul>
             <label for="check" className={classes.hamburger} >
                 <input type="checkbox" id="check" onChange={displayMenu}/>

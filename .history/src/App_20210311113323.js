@@ -7,7 +7,6 @@ import AboutMe from './components/aboutMe/AboutMe'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Projects from './components/projects/Projects'
-import { useRef } from 'react'
 
 function App() {
   const refAbouMe=useRef(null)
@@ -17,14 +16,14 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header refAbouMe={refAbouMe} refSkills={refSkills} refProjects={refProjects} refContact={refContact} />
+        <Header />
       </header>
       <main>
         <MainPage />
-        <AboutMe refAbouMe={refAbouMe}/>
-        <Skills refSkills={refSkills}/>
-        <Projects refProjects={refProjects}/>
-        <Contact refContact={refContact}/>
+        <AboutMe ref={refAbouMe}/>
+        <Skills ref={refSkills}/>
+        <Projects ref={refProjects}/>
+        <Contact ref={refContact}/>
       </main>
       <footer>
         <Footer />
