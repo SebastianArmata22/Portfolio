@@ -10,7 +10,7 @@ const EmailForm=()=>{
 
     emailjs.sendForm('service_cqphpw4', 'template_7bcltq8', e.target, 'user_KBwBVW5CfE4pABZBdHEsH')
       .then((result) => {
-          setText("Send message")
+          setText(result.text)
           console.log(result.text);
       }, (error) => {
           setText(error.text)

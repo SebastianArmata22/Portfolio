@@ -6,7 +6,6 @@ const EmailForm=()=>{
     const [text, setText]=useState("")
 
     const sendEmail=(e)=>{
-        e.preventDefault();
 
     emailjs.sendForm('service_cqphpw4', 'template_7bcltq8', e.target, 'user_KBwBVW5CfE4pABZBdHEsH')
       .then((result) => {

@@ -20,7 +20,7 @@ const Projects = ({refProjects})=>{
             </VisibilitySensor>
             </header>
             <main>
-                {projectsData.map((project)=>< ProjectItem key={project.id} project={project}/>)}
+                {projectsData.map((project)=>< ProjectItem project={project}/>)}
             </main>
         </div>
     )

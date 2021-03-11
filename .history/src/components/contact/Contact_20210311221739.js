@@ -23,8 +23,8 @@ const Contact = ({refContact})=>{
                 <div className={classes.contact_info}>
                     <p><span>email: </span><a href="mailto:sebastian.armata22@gmail.com">sebastian.armata22@gmail.com</a></p>
                     <p><span>phone: </span><a>+48  726 873 385</a></p>
-                    <p><span>LinkedIn: </span><a href="https://www.linkedin.com/in/sebastian-armata" target="_blank" rel="noreferrer">linkedin.com/in/sebastian-armata</a></p>
-                    <p><span>GitHub: </span><a href="https://www.github.com/SebastianArmata22" target="_blank" rel="noreferrer">https://github.com/SebastianArmata22</a></p>
+                    <p><span>LinkedIn: </span><a href="www.linkedin.com/in/sebastian-armata" target="_blank" rel="noopener noreferrer">linkedin.com/in/sebastian-armata</a></p>
+                    <p><span>GitHub: </span><a href="www.github.com/SebastianArmata22" target="_blank" rel="noopener noreferrer">https://github.com/SebastianArmata22</a></p>
 
                 </div>
             </div>
