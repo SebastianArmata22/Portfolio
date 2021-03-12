@@ -22,7 +22,7 @@ const Header = ({refAbouMe,refSkills,refProjects, refContact})=>{
                 <li onClick={()=>displaySection(refProjects)}>Projects</li>
                 <li onClick={()=>displaySection(refContact)}>Contact</li>
             </ul>
-            <label htmlFor="check" className={classes.hamburger} >
+            <label for="check" className={classes.hamburger} >
                 <input type="checkbox" id="check" onChange={displayMenu}/>
                 <span></span>
                 <span></span>
