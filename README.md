@@ -7,8 +7,8 @@ Live: https://sebastianarmata.netlify.app/
 Application based on the React library. Contains several sections: about me, skills, projects and contact. 
 
 ## Technologies
-*React
-*SCSS
+- React
+- SCSS
 
 ## How to open a project
 ```
