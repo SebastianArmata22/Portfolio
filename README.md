@@ -12,7 +12,7 @@ Application based on the React library. Contains several sections: about me, ski
 
 ## How to open a project
 ```
-$ cd ../portfolio
+$ cd ../Portfolio-main
 $ npm install
 $ npm start
 ```
